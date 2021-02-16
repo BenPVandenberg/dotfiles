@@ -1,0 +1,11 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Ben Vandenberg
+	email = 36287081+BenPVandenberg@users.noreply.github.com
+[core]
+	longpaths = true
+	editor = code --wait
